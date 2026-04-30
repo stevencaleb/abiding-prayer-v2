@@ -1,0 +1,25 @@
+{
+  "short_name": "Abiding Prayer",
+  "name": "Abiding Prayer – Fountains of Life",
+  "description": "A contemplative ministry companion for prayer, surrender, and steady awareness of God's presence.",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1c1917",
+  "background_color": "#fffbeb",
+  "categories": ["lifestyle", "religion"]
+}

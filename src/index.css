@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent iOS text size adjustment on rotation */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Smooth scrolling and prevent overscroll bounce on iOS */
+body {
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent tap highlight flash on iOS */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
